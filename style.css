@@ -1,0 +1,84 @@
+*{
+    background-color: #091921;
+}
+.flame-wrapper{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+}
+#red{
+    width: 80px;
+    height: 80px;
+    background-color: orangered;
+    box-shadow: 0px 0px 10px 5px orangered;
+}
+#orange{
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    box-shadow: 0px 0px 12px 6px orange;
+}
+#gold{
+    width: 45px;
+    height: 45px;
+    background-color: gold;
+    box-shadow: 0px 0px 9px 4px gold;
+}
+#white{
+    width: 35px;
+    height: 35px;
+    background-color:rgb(228, 228, 152);
+    box-shadow: 0px 0px 9px 4px rgb(228, 228, 152);
+}
+#blue{
+    width: 10px;
+    height: 10px;
+    background-color:darkblue;
+    box-shadow: 0px 0px 15px 10px rgb(96, 116, 10);
+}
+#black{
+    width: 10px;
+    height: 10px;
+    background-color:#091921;
+    box-shadow: 0px 0px 25px 20px #091921;
+}
+.base{
+    position: absolute;
+    border-radius: 50%;
+}
+.wrapper{
+    position: relative;
+}
+.flame{
+    bottom: 400px;
+    position: absolute;
+    border-radius: 50% 0% 50% 50%;
+    transform: rotate(-45deg);
+}
+
+#red:hover{
+    transform: rotate(-60deg);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    box-shadow: 0px 0px 0px 0px orangered;
+}
+#orange:hover{
+    transform: rotate(-30deg);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    box-shadow: 0px 0px 0px 0px orangered;
+}
+#gold:hover{
+    transform: rotate(-60deg);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    box-shadow: 0px 0px 0px 0px orangered;
+}
+#white:hover{
+    transform: rotate(-30deg);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    box-shadow: 0px 0px 0px 0px orangered;
+}
